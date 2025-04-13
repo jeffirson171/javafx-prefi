@@ -38,7 +38,7 @@ public class Main extends Application {
             var calculatorCtrl = (CalculatorController) calculatorFxml.getController();
 
             stage.setMinWidth(600);
-            stage.setMinHeight(400);
+            stage.setMinHeight(400);                
             stage.setTitle("Calculator");
             stage.setScene(calculatorScene);
             stage.show();
